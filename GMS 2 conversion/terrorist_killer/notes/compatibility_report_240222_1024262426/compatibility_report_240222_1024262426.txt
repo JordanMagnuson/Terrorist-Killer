@@ -1,0 +1,64 @@
+Converting GML script: ${project_dir}\scripts\crosshairsStepScript\crosshairsStepScript.gml
+Converted builtin - line 151: instance_id[i] -> instance_id_get( i )
+
+Converting GML script: ${project_dir}\scripts\highScoreDisplayScript\highScoreDisplayScript.gml
+Converted string - line 8: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\objects\oGame\Create_0.gml
+Converted string - line 7: '!' -> "!"
+Converted string - line 8: '!' -> "!"
+Converted string - line 9: '!' -> "!"
+Converted string - line 28: 'explosion_01.ogg' -> "explosion_01.ogg"
+Converted string - line 29: 'call_to_prayer.ogg' -> "call_to_prayer.ogg"
+Converted string - line 30: 'sndMachineGunLoop.ogg' -> "sndMachineGunLoop.ogg"
+
+Converting GML script: ${project_dir}\objects\oAlphabet1\Step_0.gml
+Converted builtin - line 10: instance_id[i] -> instance_id_get( i )
+Converted builtin - line 26: instance_id[i] -> instance_id_get( i )
+
+Converting GML script: ${project_dir}\objects\oAlphabet2\Step_0.gml
+Converted builtin - line 10: instance_id[i] -> instance_id_get( i )
+Converted builtin - line 26: instance_id[i] -> instance_id_get( i )
+
+Converting GML script: ${project_dir}\objects\oAlphabet3\Step_0.gml
+Converted builtin - line 10: instance_id[i] -> instance_id_get( i )
+Converted builtin - line 26: instance_id[i] -> instance_id_get( i )
+
+Converting GML script: lighting.gml
+Converted builtin - line 16: view_xview[lightpref_view] -> __view_get( e__VW.XView, lightpref_view )
+Converted builtin - line 16: view_yview[lightpref_view] -> __view_get( e__VW.YView, lightpref_view )
+
+Converting GML script: lighting.gml
+Converted builtin - line 9: view_xview[lightpref_view] -> __view_get( e__VW.XView, lightpref_view )
+Converted builtin - line 9: view_yview[lightpref_view] -> __view_get( e__VW.YView, lightpref_view )
+
+Converting GML script: lighting.gml
+Converted builtin - line 22: view_yview[lightpref_view] -> __view_get( e__VW.YView, lightpref_view )
+Converted builtin - line 19: view_wview[lightpref_view] -> __view_get( e__VW.WView, lightpref_view )
+Converted builtin - line 22: view_wview[lightpref_view] -> __view_get( e__VW.WView, lightpref_view )
+Converted builtin - line 19: view_hview[lightpref_view] -> __view_get( e__VW.HView, lightpref_view )
+
+Missing audiogroup for sound: 'snd_type' - setting to default audio group
+Missing audiogroup for sound: 'sndGun' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_move.gml'
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'joystick/joystick_check_button.gml'
+Added compatibility script 'joystick/__joystick_2_gamepad.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'object/object_set_depth.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'joystick/__init_joystick.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'joystick/joystick_process_events.gml'
+Added compatibility script 'joystick/joystick_xpos.gml'
+Added compatibility script 'joystick/joystick_ypos.gml'
+Added compatibility script 'joystick/joystick_exists.gml'
+Added compatibility script '__global_object_depths.gml'

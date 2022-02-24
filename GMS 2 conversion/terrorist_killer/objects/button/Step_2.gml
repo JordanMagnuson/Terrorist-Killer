@@ -1,0 +1,3 @@
+if (down)
+  newPress = false;
+
