@@ -1,0 +1,5 @@
+oLetterChooser.letter1Finished
+oLetterChooser.letter2Started
+oLetterChooser.letter2Finished
+oLetterChooser.letter3Started
+oLetterChooser.letter3Finished
