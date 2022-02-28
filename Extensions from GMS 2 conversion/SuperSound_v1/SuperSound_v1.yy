@@ -3,11 +3,11 @@
   "options": [],
   "exportToGame": true,
   "supportedTargets": 9223372036854775807,
-  "extensionVersion": "3.4",
+  "extensionVersion": "0.0.1",
   "packageId": "",
   "productId": "",
   "author": "",
-  "date": "2022-02-24T10:24:25.745608-06:00",
+  "date": "2022-02-24T08:24:25.745608-08:00",
   "license": "Free to use, also for commercial games.",
   "description": "Ogg and Wav Audio Player",
   "helpfile": "C:\\Users\\jmmag\\AppData\\Local\\GameMaker-Studio\\extensions\\SuperSound v1.chm",
@@ -23,12 +23,16 @@
         {"externalName":"","kind":2,"help":"SS_FreeSound(handle)","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"resourceVersion":"1.0","name":"SS_FreeSound","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[
+        {"name":"SS_FreeSound","path":"extensions/SuperSound_v1/SuperSound_v1.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
     {"filename":"SS_GetSoundBytesPerSecond.gml","origname":"C:\\Program Files\\Game_Maker8\\supersoundsystem3.4_dll\\SS_GetSoundBytesPerSecond.gml","init":"","final":"","kind":2,"uncompress":false,"functions":[
         {"externalName":"","kind":2,"help":"SS_GetSoundBytesPerSecond(hendle)","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"resourceVersion":"1.0","name":"SS_GetSoundBytesPerSecond","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[
+        {"name":"SS_GetSoundBytesPerSecond","path":"extensions/SuperSound_v1/SuperSound_v1.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
     {"filename":"SS_GetSoundFreq.gml","origname":"C:\\Program Files\\Game_Maker8\\supersoundsystem3.4_dll\\SS_GetSoundFreq.gml","init":"","final":"","kind":2,"uncompress":false,"functions":[
         {"externalName":"","kind":2,"help":"SS_GetSoundFreq(handle)","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
@@ -56,7 +60,9 @@
       ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
     {"filename":"SS_Init.gml","origname":"C:\\Program Files\\Game_Maker8\\supersoundsystem3.4_dll\\SS_Init.gml","init":"SS_Init","final":"","kind":2,"uncompress":false,"functions":[
         {"externalName":"","kind":2,"help":"SS_Init()","hidden":false,"returnType":2,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"SS_Init","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[
+        {"name":"SS_Init","path":"extensions/SuperSound_v1/SuperSound_v1.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
     {"filename":"SS_IsHandleValid.gml","origname":"C:\\Program Files\\Game_Maker8\\supersoundsystem3.4_dll\\SS_IsHandleValid.gml","init":"","final":"","kind":2,"uncompress":false,"functions":[
         {"externalName":"","kind":2,"help":"SS_IsHandleValid(handle)","hidden":false,"returnType":2,"argCount":1,"args":[
             2,

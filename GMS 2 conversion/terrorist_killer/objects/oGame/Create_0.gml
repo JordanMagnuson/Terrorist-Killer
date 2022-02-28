@@ -24,9 +24,10 @@ global.score = 0;
 global.initials = "";
 
 //SuperSound
+/*
 SS_Init();
 global.sndExplosion = SS_LoadSound("explosion_01.ogg",0);
 global.sndCallToPrayer = SS_LoadSound("call_to_prayer.ogg",0); 
 global.sndMachineGun = SS_LoadSound("sndMachineGunLoop.ogg",0);
-
+*/
 action_set_alarm(30, 0);

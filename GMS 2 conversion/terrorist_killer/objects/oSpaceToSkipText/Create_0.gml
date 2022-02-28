@@ -4,4 +4,3 @@ draw_set_halign(fa_left);
 alpha = 0;
 fading = false;
 margin = 5;
-

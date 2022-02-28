@@ -8,4 +8,3 @@ instance_create(0,0,oPointer);
 
 x = 300
 instance_create(x, y, oAlphabet1);
-

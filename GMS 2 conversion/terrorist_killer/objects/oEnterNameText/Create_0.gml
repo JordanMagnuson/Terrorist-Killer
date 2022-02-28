@@ -14,4 +14,3 @@ visible = false //This is to prevent it from flashing the full text for a milise
 margin = 40;
 //Type briefing text
 scr_init_typ("Congratulations:#You've won the War on Terror!##Enter your initials for a highscore!",20,room_width/2 + 60,1,vk_space,x,y,1,c_black,global.font6);
-

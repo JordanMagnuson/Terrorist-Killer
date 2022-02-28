@@ -1,3 +1,3 @@
 firing = false; 
-SS_StopSound(global.sndMachineGun);
+//SS_StopSound(global.sndMachineGun);
 

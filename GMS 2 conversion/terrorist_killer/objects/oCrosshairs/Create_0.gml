@@ -8,4 +8,3 @@ firing = false;
 passCounter = 0;
 killRadius = sprite_height/8;
 jerkRadius = 10;
-

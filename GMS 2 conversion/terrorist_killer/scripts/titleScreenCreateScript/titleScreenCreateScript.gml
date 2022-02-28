@@ -1,5 +1,5 @@
 function titleScreenCreateScript() {
-	SS_StopSound(global.sndMachineGun);
+	//SS_StopSound(global.sndMachineGun);
 	global.level = 6;
 
 	visible = false; //This is to prevent it from flashing the full text for a milisecond. Try taking this out and see why its here. It is set back to true in the step event

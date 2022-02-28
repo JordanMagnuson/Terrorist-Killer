@@ -1,5 +1,5 @@
 function briefingCreateScript() {
-	SS_StopSound(global.sndMachineGun) 
+	//SS_StopSound(global.sndMachineGun) 
 
 	global.score = global.terroristKillsTotal * global.pointsForKill - global.civilianKillsTotal * global.pointsForKill;
 	typingReset = false;

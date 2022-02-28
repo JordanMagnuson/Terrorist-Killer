@@ -28,4 +28,3 @@ for (i=65; i<=90; i+=1) // asci code for "A" is 65, "Z" is 90
   newLetter.letter = chr(i);
   newLetter.direction = direction;
 }
-
