@@ -1,3 +1,4 @@
+/*
 //Spotlight
 lt_lightset(mouse_light,light_s2,0,oCrosshairs.x,oCrosshairs.y,.3,.3,0,c_white,true);
 
@@ -14,3 +15,4 @@ if (global.debugOn)
 else
   lt_lightset(debugLight,sLightDebug,0,5,5,1,1,0,c_white,false);  
 
+*/

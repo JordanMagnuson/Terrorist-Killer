@@ -1,4 +1,4 @@
-lt_sysset(1,-1,make_color_rgb(10,10,10),true,true,1,-10);
+//lt_sysset(1,-1,make_color_rgb(10,10,10),true,true,1,-10);
 //lt_sysset(1,-1,c_gray,true,true,1,-10);
 /*Sets the settings for
 all of the lighting settings. If this function is not called at least once
@@ -27,12 +27,12 @@ Argument5 - Resets/deletes all lights. (Make sure to use at the beginning
 Argument6 - Lighting depth (Only used with automatic draw)
 */
 
-mouse_light=lt_lightadd(light_s2,0,.5,.5,1,1,0,c_white,1);//Turned on and off with mouse
-firing_light=lt_lightadd(light_s2,0,.5,.5,1,1,0,c_white,1);//Turned on and off with mouse
+//mouse_light=lt_lightadd(light_s2,0,.5,.5,1,1,0,c_white,1);//Turned on and off with mouse
+//firing_light=lt_lightadd(light_s2,0,.5,.5,1,1,0,c_white,1);//Turned on and off with mouse
 lightOn = false;
 
 //debug light
-debugLight=lt_lightadd(sLightDebug,0,5,5,1,1,0,c_white,true);
+//debugLight=lt_lightadd(sLightDebug,0,5,5,1,1,0,c_white,true);
 
 /* */
 /*  */
