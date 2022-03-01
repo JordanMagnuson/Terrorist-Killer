@@ -16,6 +16,7 @@ visible = false //This is to prevent it from flashing the full text for a milise
 margin = 10;
 x = 160;
 y = margin;
+depth = -5000;
 //Type briefing text
 text = "by Jordan Magnuson - necessarygames.com";
 scr_init_typ(text,20,room_width-(margin*2),1,vk_space,x,y,1,c_black,global.font5);

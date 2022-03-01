@@ -1,4 +1,5 @@
-  scr_step_typ(typs);
+scr_step_typ(typs);
+
 if (oByLine.finishedTyping)
 { 
   if (finishedTyping and !typingReset)
