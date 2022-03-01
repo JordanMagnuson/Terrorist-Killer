@@ -1,3 +1,3 @@
-global.debugOn = false;
+global.debugOn = true;
 
 

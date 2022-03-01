@@ -8,7 +8,6 @@ function titleScreenStep() {
 	  }
 	}
 
-
 	if (startedExplosions)
 	  alarm[0] -= 1;
 
@@ -41,9 +40,4 @@ function titleScreenStep() {
 	{
 	  instance_create(0,0,oFadeTitle);
 	}
-
-
-
-
-
 }

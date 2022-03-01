@@ -9,7 +9,7 @@ if (oByLine.finishedTyping)
   else if (finishedTyping and typingReset)
     alarm[0] -= 1;
 }
-
+show_debug_message(string(alarm[1]));
 if (finishedTyping)
   alarm[1] -= 1;
   

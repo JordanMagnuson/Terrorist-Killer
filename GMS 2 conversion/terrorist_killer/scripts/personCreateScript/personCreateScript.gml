@@ -12,7 +12,4 @@ function personCreateScript() {
 	rot=0;  
 
 	fallSpeed = 10 + random(10);
-
-
-
 }

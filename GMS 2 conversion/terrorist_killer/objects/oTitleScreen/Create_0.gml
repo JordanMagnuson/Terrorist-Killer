@@ -14,4 +14,3 @@ global.explodedCivilians = 0;
 global.explodedTerrorists = 0;
 global.score = 0; 
 global.initials = "";
-

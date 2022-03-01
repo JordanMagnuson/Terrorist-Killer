@@ -9,3 +9,4 @@ height = string_height(string_hash_to_newline("Press " + global.buttonName + " t
 width = string_width(string_hash_to_newline("Press " + global.buttonName + " to thwart the evildoers. Hold to quit."));
 
 
+show_debug_message("oPressSpace Created");// currently we are not making it this far

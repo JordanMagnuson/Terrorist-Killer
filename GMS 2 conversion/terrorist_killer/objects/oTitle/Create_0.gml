@@ -1,6 +1,7 @@
 alarm[1] = 30; //How long after finished to show next text object
 holdToQuit = 90;
 typingReset = false;
+finishedTyping = false;
 
 //arg0 = The text that has to be typed
 //arg1 = The line separation

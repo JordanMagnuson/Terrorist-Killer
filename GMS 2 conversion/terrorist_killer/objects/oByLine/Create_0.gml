@@ -11,6 +11,7 @@ typingReset = false;
 //arg7 = Typing Speed
 //arg8 = Text Color
 //arg9 = Font
+
 visible = false //This is to prevent it from flashing the full text for a milisecond. Try taking this out and see why its here. It is set back to true in the step event
 margin = 10;
 x = 160;
