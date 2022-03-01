@@ -9,16 +9,24 @@
   if (killRadius < sprite_width*.75)
   {
     killRadius = killRadius * 1.1
-    do//THIS IS THE LOOP THAT KEEPS ON LOOPING
+    do
     {
       toKill = collision_circle(x,y,killRadius,oPerson,false,false); //RETURNS THE ID OF AN OBJECT WITHIN THE CIRCLE
 	  show_debug_message("toKill: " + string(toKill));
       if (toKill >= 0)
       {
         global.explodedCivilians += 1;
-        with(toKill)//I DON'T THINK THIS WORKS
+        with(toKill)
         { 
-			instance_create_depth(x,y,depth, oPersonDying);
+			killed = instance_create_depth(x,y,depth, oPersonDying);
+			with(killed){
+				image_index = other.image_index; //pass the image_index forward
+				rot = other.rot;
+				fallDirection = other.fallDirection;
+				fallSpeed = other.fallSpeed;
+				facing = other.facing;
+			}
+			
 			instance_destroy();
 			//instance_change(oPersonDying,true);//CHANGE THE INSTANCE FROM OPERSON TO OPERSONDYING
 			show_debug_message("Person killed");
