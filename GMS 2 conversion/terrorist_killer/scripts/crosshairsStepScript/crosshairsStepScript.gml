@@ -35,7 +35,7 @@ function crosshairsStepScript() {
 	    whiteFlash = instance_create(0,0,oWhiteFlash);
 	    whiteFlash.howLong = 6;
 	    instance_create(0,0,oEnterName);
-	    lt_sysset(0,-1,make_color_rgb(10,10,10),true,true,1,-10);  
+	    //lt_sysset(0,-1,make_color_rgb(10,10,10),true,true,1,-10);  
 	    with(oLighting) instance_destroy();  
 	    firing = false;    
 	    //SS_StopSound(global.sndMachineGun);
@@ -125,7 +125,15 @@ function crosshairsStepScript() {
 	      }
 	      with(toKill)
 	      { 
-	        instance_change(oPersonDying,false);
+	        //instance_change(oPersonDying,false);
+			killed = instance_create_depth(x,y,depth, oPersonDying);
+			with(killed){
+				image_index = other.image_index; //pass the image_index forward
+				rot = other.rot;
+				fallDirection = other.fallDirection;
+				fallSpeed = other.fallSpeed;
+				facing = other.facing;
+			}
 	        if (fps>=room_speed)
 	          particleBloodScript();
 	      }
