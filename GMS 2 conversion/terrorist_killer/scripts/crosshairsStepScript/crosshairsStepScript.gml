@@ -136,6 +136,7 @@ function crosshairsStepScript() {
 			}
 	        if (fps>=room_speed)
 	          particleBloodScript();
+			instance_destroy();
 	      }
 	    }
 	  }
