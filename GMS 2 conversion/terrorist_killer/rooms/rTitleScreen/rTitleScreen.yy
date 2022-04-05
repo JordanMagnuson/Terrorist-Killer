@@ -14,6 +14,9 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":128.0,"resourceVersion":"1.0","name":"inst_7FA40159","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":-100099,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Camera","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oFadeInTitle","path":"objects/oFadeInTitle/oFadeInTitle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":48.0,"resourceVersion":"1.0","name":"inst_1810E8CB","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-99999,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Compatibility_Instances_Depth_-99999","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -35,6 +38,7 @@
     {"name":"inst_585A3902","path":"rooms/rTitleScreen/rTitleScreen.yy",},
     {"name":"inst_0B884F9B","path":"rooms/rTitleScreen/rTitleScreen.yy",},
     {"name":"inst_1810E8CB","path":"rooms/rTitleScreen/rTitleScreen.yy",},
+    {"name":"inst_7FA40159","path":"rooms/rTitleScreen/rTitleScreen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

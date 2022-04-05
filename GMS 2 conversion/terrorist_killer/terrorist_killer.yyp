@@ -29,6 +29,7 @@
     {"id":{"name":"scr_draw_typ","path":"scripts/scr_draw_typ/scr_draw_typ.yy",},"order":5,},
     {"id":{"name":"titleScreenCreateScript","path":"scripts/titleScreenCreateScript/titleScreenCreateScript.yy",},"order":1,},
     {"id":{"name":"briefingCreateScript","path":"scripts/briefingCreateScript/briefingCreateScript.yy",},"order":3,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":28,},
     {"id":{"name":"levelCreateScript","path":"scripts/levelCreateScript/levelCreateScript.yy",},"order":5,},
     {"id":{"name":"particleBloodScript","path":"scripts/particleBloodScript/particleBloodScript.yy",},"order":9,},
     {"id":{"name":"dieScript","path":"scripts/dieScript/dieScript.yy",},"order":11,},
