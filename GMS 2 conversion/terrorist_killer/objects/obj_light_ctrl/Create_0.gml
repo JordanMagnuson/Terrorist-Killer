@@ -5,7 +5,7 @@ Surf_Light = surface_create(camera_get_view_width(global.camera),camera_get_view
 Light_List = ds_list_create();
 
 
-Blackness_Value = 0.98; //The alpha value of the "darkness"
+Blackness_Value = 0.99; //The alpha value of the "darkness"
 
 /*
 When creating a light source you call: fake_light_ini

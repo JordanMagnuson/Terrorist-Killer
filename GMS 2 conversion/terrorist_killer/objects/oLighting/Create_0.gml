@@ -28,8 +28,11 @@ Argument6 - Lighting depth (Only used with automatic draw)
 */
 
 //mouse_light=lt_lightadd(light_s2,0,.5,.5,1,1,0,c_white,1);//Turned on and off with mouse
+mouse_light = instance_create_depth(0,0,0,oMouseLight);
+
+
 //firing_light=lt_lightadd(light_s2,0,.5,.5,1,1,0,c_white,1);//Turned on and off with mouse
-lightOn = false;
+//lightOn = false;
 
 //debug light
 //debugLight=lt_lightadd(sLightDebug,0,5,5,1,1,0,c_white,true);

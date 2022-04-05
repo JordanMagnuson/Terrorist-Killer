@@ -47,12 +47,12 @@ draw_surface_ext(Surf_Light, vx, vy, 1, 1, 0, c_white, Blackness_Value);
 
 
 //Debug
-draw_set_color(c_white);
-draw_set_valign(fa_top);
-draw_set_halign(fa_left);
+//draw_set_color(c_white);
+//draw_set_valign(fa_top);
+//draw_set_halign(fa_left);
 
-draw_text(vx+2, vy+2, "FPS:"+string(fps));
-draw_text(vx+2, vy+18, "FPS_REAL:"+string(fps_real));
-draw_text(vx+2, vy+34, "R:restart");
-draw_text(vx+2, vy+50, "Space: on/off red lights");
-draw_text(vx+2, vy+66, "'P': removes cat's light ,\r'O': adds the cat's light.");
+//draw_text(vx+2, vy+2, "FPS:"+string(fps));
+//draw_text(vx+2, vy+18, "FPS_REAL:"+string(fps_real));
+//draw_text(vx+2, vy+34, "R:restart");
+//draw_text(vx+2, vy+50, "Space: on/off red lights");
+//draw_text(vx+2, vy+66, "'P': removes cat's light ,\r'O': adds the cat's light.");
