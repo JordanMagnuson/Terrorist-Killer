@@ -1,5 +1,6 @@
 draw_set_alpha(1);
-if (global.debugOn and room == rLevel)
+if (false)
+//if (global.debugOn and room == rLevel)
 {
   //Display debug info
   draw_set_color(c_white);
