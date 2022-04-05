@@ -114,6 +114,7 @@
     {"id":{"name":"oPointer","path":"objects/oPointer/oPointer.yy",},"order":19,},
     {"id":{"name":"oRightText","path":"objects/oRightText/oRightText.yy",},"order":1,},
     {"id":{"name":"oQuoteTextOld","path":"objects/oQuoteTextOld/oQuoteTextOld.yy",},"order":3,},
+    {"id":{"name":"oFiringLight","path":"objects/oFiringLight/oFiringLight.yy",},"order":31,},
     {"id":{"name":"oChomskyText","path":"objects/oChomskyText/oChomskyText.yy",},"order":5,},
     {"id":{"name":"oQuoteText","path":"objects/oQuoteText/oQuoteText.yy",},"order":7,},
     {"id":{"name":"oHighScore","path":"objects/oHighScore/oHighScore.yy",},"order":1,},
