@@ -2,7 +2,7 @@ x = 0;
 y = 0;
 margin = 30;
 
-instance_create(margin,170,oEnterNameText);
+instance_create(margin,190,oEnterNameText);
 instance_create(0,128,oStripeBig);
 instance_create(0,0,oPointer);
 
