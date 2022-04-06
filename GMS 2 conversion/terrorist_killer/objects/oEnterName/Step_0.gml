@@ -27,7 +27,7 @@ if (instance_exists(oAlphabet3))
     global.score = global.terroristKillsTotal * global.pointsForKill - global.civilianKillsTotal * global.pointsForKill; 
 //    highscore_add(initials,global.score);
     fadeOut = instance_create(0,0,oFadeOut);
-    fadeOut.roomGoto = rHighScore;
+    fadeOut.roomGoto = rKidding;
   }
 }
 
