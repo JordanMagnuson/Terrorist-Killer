@@ -108,19 +108,19 @@ function crosshairsStepScript() {
 	    {
 	      if (toKill.object_index = oTerrorist)
 	      {
-	        instance_create(toKill.x,toKill.y,oPlusPoints);
+	        if (global.SHOW_SCORE) instance_create(toKill.x,toKill.y,oPlusPoints);
 	        global.terroristKillsLevel += 1;
 	        global.terroristKillsTotal += 1;
 	      }
 	      else if (ds_list_find_index(global.childImagesList,toKill.image_index) >= 0)
 	      {
-	        instance_create(toKill.x,toKill.y,oMinusPointsChildren);
+	        if (global.SHOW_SCORE) instance_create(toKill.x,toKill.y,oMinusPointsChildren);
 	        global.civilianKillsLevel += 1;
 	        global.civilianKillsTotal += 1;      
 	      }
 	      else
 	      {
-	        instance_create(toKill.x,toKill.y,oMinusPoints);
+	        if (global.SHOW_SCORE) instance_create(toKill.x,toKill.y,oMinusPoints);
 	        global.civilianKillsLevel += 1;
 	        global.civilianKillsTotal += 1;
 	      }

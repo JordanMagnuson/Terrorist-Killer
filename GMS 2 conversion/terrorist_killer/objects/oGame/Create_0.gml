@@ -1,6 +1,10 @@
+// Random seed
 randomize();
 global.random_seed = random_get_seed();
 show_debug_message("random seed: " + string(global.random_seed));
+
+// Show score? 
+global.SHOW_SCORE = false;
 
 //Timer
 global.minutesPlayed = 0;
