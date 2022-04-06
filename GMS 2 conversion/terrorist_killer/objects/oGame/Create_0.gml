@@ -1,3 +1,7 @@
+randomize();
+global.random_seed = random_get_seed();
+show_debug_message("random seed: " + string(global.random_seed));
+
 //Timer
 global.minutesPlayed = 0;
 global.secondsPlayed = 0;
