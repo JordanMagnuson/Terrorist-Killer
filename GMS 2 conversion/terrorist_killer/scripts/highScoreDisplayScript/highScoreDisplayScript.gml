@@ -37,6 +37,6 @@ function highScoreDisplayScript() {
 	  draw_text(col3Pos,y,string_hash_to_newline(civsKilled));  
 	}
 
-
-
+	draw_set_color(c_white);
+	draw_set_alpha(1);
 }

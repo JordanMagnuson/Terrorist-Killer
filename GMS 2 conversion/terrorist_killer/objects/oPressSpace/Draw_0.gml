@@ -11,4 +11,5 @@ draw_rectangle(0,room_height-height*2,room_width,room_height,false);
 draw_set_alpha(alpha);
 draw_set_color(c_black);
 draw_text(margin,room_height - margin - height,string_hash_to_newline("Press " + global.buttonName + " to thwart the evildoers. Hold to quit."));
-
+draw_set_color(c_white);
+draw_set_alpha(1);
