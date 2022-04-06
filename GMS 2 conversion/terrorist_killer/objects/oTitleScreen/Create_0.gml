@@ -1,6 +1,6 @@
 script_execute(levelCreateScriptTitle,0,0,0,0,0);
 //Play call to prayer sound
-//SS_PlaySound(global.sndCallToPrayer);
+audio_play_sound(global.sndCallToPrayer, 1, false);
 
 alarm[1] = 120;
 startedExplosions = false;

@@ -38,7 +38,7 @@ function crosshairsStepScript() {
 	    //lt_sysset(0,-1,make_color_rgb(10,10,10),true,true,1,-10);  
 	    with(oLighting) instance_destroy();  
 	    firing = false;    
-	    //SS_StopSound(global.sndMachineGun);
+	    audio_stop_sound(global.sndMachineGun);
 	    instance_destroy();
 	  }
 	  else
@@ -72,10 +72,11 @@ function crosshairsStepScript() {
 	if (firing == true)
 	{
 	  //Sound
-	  /*
-	  if not SS_IsSoundPlaying(global.sndMachineGun) 
-	    SS_LoopSound(global.sndMachineGun);
-*/
+
+	  if (!audio_is_playing(global.sndMachineGun)) {
+	    audio_play_sound(global.sndMachineGun, 1, true);
+		}
+
 	  //New image
 	  sprite_index = sCrosshairsFire;
 	  image_speed = 1/2;
@@ -149,7 +150,7 @@ function crosshairsStepScript() {
 	}
 	else
 	{ 
-	  //SS_StopSound(global.sndMachineGun);
+	  audio_stop_sound(global.sndMachineGun);
 	  sprite_index = sCrosshairs;
 	  xOrig = x;
 	  yOrig = y;  

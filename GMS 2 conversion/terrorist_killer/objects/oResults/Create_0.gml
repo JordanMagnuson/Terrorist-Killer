@@ -1,4 +1,4 @@
-//SS_StopSound(global.sndMachineGun) 
+audio_stop_sound(global.sndMachineGun);
 typingReset = false;
 
 //arg0 = The text that has to be typed

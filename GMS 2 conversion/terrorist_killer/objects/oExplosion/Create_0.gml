@@ -6,4 +6,4 @@ killRadius = sprite_width/4;
 if (room != rTitleScreen)
   global.explodedTerrorists += 1;
   
-//SS_PlaySound(global.sndExplosion)
+audio_play_sound(global.sndExplosion, 1, false);
