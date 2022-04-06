@@ -8,9 +8,12 @@ global.secondsPlayed = 0;
 global.timer = 0;
 
 //Fonts
-global.font5=font_add_sprite(sFontCasualEncounter5,ord("!"),1,2);
-global.font6=font_add_sprite(sFontCasualEncounter6,ord("!"),1,2);
-global.font8=font_add_sprite(sFontCasualEncounter8,ord("!"),1,2);
+//global.font5=font_add_sprite(sFontCasualEncounter5,ord("!"),1,1);
+//global.font6=font_add_sprite(sFontCasualEncounter6,ord("!"),1,1);
+//global.font8=font_add_sprite(sFontCasualEncounter8,ord("!"),1,1);
+global.font5=fntCasualEncounter5;
+global.font6=fntCasualEncounter6;
+global.font8=fntCasualEncounter8;
 
 //Global variables
 global.level = 0;
