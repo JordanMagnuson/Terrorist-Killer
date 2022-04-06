@@ -5,3 +5,4 @@ alarm[0]=60/((instance_number(oBlood) + 50)/50);//sets the timer for when to sta
 alarm[1]=8;//Stop moving when this alarm hits 0
 fade=false;//tells not to fade yet
 
+depth = 1;
