@@ -13,10 +13,11 @@ function titleScreenStep() {
 
 	if (startedExplosions and alarm[0] <= 0)
 	{
+			terroristID = false;
 	    ds_list_shuffle(terroristIDList);
 	    terroristID = ds_list_find_value(terroristIDList,0);
 	    ds_list_delete(terroristIDList,0);
-	    if (instance_exists(terroristID))
+	    if (terroristID && instance_exists(terroristID))
 	    {
 	      if (terroristID.object_index != oPersonDead)
 	      {
