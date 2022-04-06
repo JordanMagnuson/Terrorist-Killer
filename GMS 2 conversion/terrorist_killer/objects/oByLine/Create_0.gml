@@ -20,7 +20,7 @@ y = 0;
 depth = -5000; //this text was hiding so I moved it to the front
 
 //Type briefing text
-text = "a game by Jordan Magnuson";
+text = "a game by Jordan Magnuson, 2010";
 scr_init_typ(text,0,room_width-(margin*2),1,vk_space,x,y,1,c_black,global.font5);
 
 width = string_width_ext(string_hash_to_newline(text),20,600);
