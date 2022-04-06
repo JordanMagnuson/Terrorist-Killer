@@ -9,7 +9,7 @@ if (killRadius < sprite_width*.75)
   killRadius = killRadius * 1.1
   do
   {
-    toKill = collision_circle(x,y,killRadius,oPerson,false,false); //RETURNS THE ID OF AN OBJECT WITHIN THE CIRCLE
+    toKill = collision_circle(x,y,killRadius,oPerson,false,true); //RETURNS THE ID OF AN OBJECT WITHIN THE CIRCLE
     if (toKill != noone)
     {
       global.explodedCivilians += 1;
