@@ -14,3 +14,7 @@ global.explodedCivilians = 0;
 global.explodedTerrorists = 0;
 global.score = 0; 
 global.initials = "";
+
+if (os_browser != browser_not_a_browser) {
+	instance_create_depth(0,0,0,oHTML5StartFullscreenButton);
+}
