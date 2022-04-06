@@ -34,6 +34,7 @@
     {"id":{"name":"fake_light_remove","path":"scripts/fake_light_remove/fake_light_remove.yy",},"order":23,},
     {"id":{"name":"scr_draw_typ","path":"scripts/scr_draw_typ/scr_draw_typ.yy",},"order":5,},
     {"id":{"name":"sndCallToPrayer","path":"sounds/sndCallToPrayer/sndCallToPrayer.yy",},"order":5,},
+    {"id":{"name":"ImageLoadBar","path":"extensions/ImageLoadBar/ImageLoadBar.yy",},"order":0,},
     {"id":{"name":"titleScreenCreateScript","path":"scripts/titleScreenCreateScript/titleScreenCreateScript.yy",},"order":1,},
     {"id":{"name":"briefingCreateScript","path":"scripts/briefingCreateScript/briefingCreateScript.yy",},"order":3,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":28,},
