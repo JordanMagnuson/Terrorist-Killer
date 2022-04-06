@@ -38,12 +38,12 @@ function briefingCreateScript() {
 	if (global.level == 1)
 	{
 	  photoX = room_width/2;
-	  photoY = 250;
+	  photoY = 270;
 	}
 	else
 	{
 	  photoX = room_width - 100;
-	  photoY = 250;
+	  photoY = 270;
 	}
 
 	visible = false //This is to prevent it from flashing the full text for a milisecond. Try taking this out and see why its here. It is set back to true in the step event
