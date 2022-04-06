@@ -2,8 +2,11 @@
 //  finished = true;
   
 
-explosionLightScale = explosionLightScale * .75;
-//lt_lightset(explosionLight,light_s,0,x,y,explosionLightScale,explosionLightScale,0,c_white,true);
+// Adjust lighting.
+explosionLightScale -= 1/(0.5*room_speed);
+fake_light_ini(id, light_s1_with_transparency, explosionLightScale, explosionLightScale, c_white, 1);
+
+// Kill people in explosion radius.
 if (killRadius < sprite_width*.75)
 {
   killRadius = killRadius * 1.1
@@ -39,14 +42,12 @@ if (image_index == (image_number - 1))
   if (room != rTitleScreen)
   {
     //image_speed = 0;
-    //lt_lightset(explosionLight,light_s,0,x,y,explosionLightScale,explosionLightScale,0,c_white,false);     
     fadeout = instance_create(x,y,oFadeOut);
     fadeout.roomGoto = rResult;
     instance_destroy();
   }
   else
-  {
-    //lt_lightset(explosionLight,light_s,0,x,y,explosionLightScale,explosionLightScale,0,c_white,false);     
+  {    
     instance_destroy();
   }
 }

@@ -11,6 +11,7 @@
     {"id":{"name":"light_s","path":"sprites/light_s/light_s.yy",},"order":4,},
     {"id":{"name":"light_s2_with_transparency","path":"sprites/light_s2_with_transparency/light_s2_with_transparency.yy",},"order":6,},
     {"id":{"name":"light_s2","path":"sprites/light_s2/light_s2.yy",},"order":5,},
+    {"id":{"name":"light_s1_with_transparency","path":"sprites/light_s1_with_transparency/light_s1_with_transparency.yy",},"order":19,},
     {"id":{"name":"sPeople","path":"sprites/sPeople/sPeople.yy",},"order":7,},
     {"id":{"name":"sPeopleDead","path":"sprites/sPeopleDead/sPeopleDead.yy",},"order":8,},
     {"id":{"name":"sFontCasualEncounter8","path":"sprites/sFontCasualEncounter8/sFontCasualEncounter8.yy",},"order":9,},
