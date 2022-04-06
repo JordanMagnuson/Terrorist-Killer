@@ -8,3 +8,5 @@ if (room != rTitleScreen)
   global.explodedTerrorists += 1;
   
 audio_play_sound(global.sndExplosion, 1, false);
+
+depth = 0;
