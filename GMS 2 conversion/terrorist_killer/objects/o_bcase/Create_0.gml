@@ -3,4 +3,3 @@ gravity_direction=270;//sets the direction gravity pulls
 gravity=0.5;//sets ammount of gravity (i dont recomend over 0.5)
 alarm[0]=600//sets the timer for when to start to remove blood
 fade=false;//tells not to fade yet
-depth = -1;
