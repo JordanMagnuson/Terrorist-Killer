@@ -33,3 +33,7 @@ else {
 if (released)
   newPress = true;
 
+// ESC to quit.
+if (keyboard_check_pressed(vk_escape)) {
+	game_end();
+}

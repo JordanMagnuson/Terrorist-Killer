@@ -4,6 +4,6 @@ if (alarm[0] <= 0)
   
 if (alpha >= 2)
 {
-  room_goto(rTitleScreen);
+  room_goto(rLeaveComment);
 }
 
