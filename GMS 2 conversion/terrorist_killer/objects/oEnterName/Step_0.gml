@@ -2,7 +2,7 @@ if (oAlphabet1.finished and !instance_exists(oAlphabet2))
 {
   button.pressed = false;
   button.down = false;
-  button.newPress = false;
+  //button.newPress = false;
 //  keyboard_key_release(vk_space); 
   x = x+margin;
   instance_create(x, y, oAlphabet2)
@@ -13,7 +13,7 @@ if (instance_exists(oAlphabet2))
   {
     button.pressed = false;
     button.down = false;  
-    button.newPress = false;
+    //button.newPress = false;
 //    keyboard_key_release(vk_space);
     x = x+margin;
     instance_create(x, y, oAlphabet3)

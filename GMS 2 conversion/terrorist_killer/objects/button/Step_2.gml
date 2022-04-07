@@ -1,3 +1,3 @@
-if (down)
-  newPress = false;
+//if (down)
+//  newPress = false;
 
