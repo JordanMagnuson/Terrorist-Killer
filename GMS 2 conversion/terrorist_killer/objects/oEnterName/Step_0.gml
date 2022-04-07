@@ -1,3 +1,11 @@
+// Forget about entering name: jump immediately to end screen.
+if (oEnterNameText.finishedTyping) {
+	if (keyboard_check_pressed(vk_anykey) || mouse_check_button_pressed(mb_any)) {
+	    fadeOut = instance_create(0,0,oFadeOut);
+	    fadeOut.roomGoto = rKidding;
+	}
+}
+
 if (oAlphabet1.finished and !instance_exists(oAlphabet2))
 {
   button.pressed = false;
