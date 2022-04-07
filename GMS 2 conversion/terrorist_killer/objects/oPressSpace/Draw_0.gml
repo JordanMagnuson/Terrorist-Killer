@@ -11,7 +11,12 @@ draw_rectangle(0,room_height-height*2,room_width,room_height,false);
 
 draw_set_alpha(alpha);
 draw_set_color(c_black);
-draw_text(margin,room_height - margin - height,string_hash_to_newline("Press " + global.buttonName + " to thwart the evildoers. Hold to quit."));
+if (os_browser == browser_not_a_browser) {
+	draw_text(margin,room_height - margin - height,string_hash_to_newline("Press " + global.buttonName + " to thwart the evildoers. Hold to quit."));
+}
+else {
+	draw_text(margin,room_height - margin - height,string_hash_to_newline("Click to thwart the evildoers. (Game will start in fullscreen.)"));
+}
 draw_set_color(c_white);
 draw_set_alpha(1);
 draw_set_valign(fa_top);
