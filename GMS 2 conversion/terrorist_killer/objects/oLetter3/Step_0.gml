@@ -6,7 +6,7 @@ if (y < 0)
 speed = oAlphabet3.speed;
 
 //Select letter if at pointer
-if (oPointer.visible and y == oPointer.y)
+if (oPointer.visible and abs(y - oPointer.y) <= 5)
 {
   selected = true;
 }
