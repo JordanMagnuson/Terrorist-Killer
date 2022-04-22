@@ -27,7 +27,7 @@ global.civilianKillsTotal = 0;
 global.terroristKillsTotal = 0;
 global.explodedCivilians = 0;
 global.explodedTerrorists = 0;
-global.crosshairsSpeed = 3.5
+global.crosshairsSpeed = 2.8;	// Original = 3.5
 global.lastLevel = 6;
 global.buttonName = "space"
 global.pointsForKill = 100;

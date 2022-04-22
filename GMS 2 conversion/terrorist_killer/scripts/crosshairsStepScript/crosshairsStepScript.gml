@@ -111,33 +111,43 @@ function crosshairsStepScript() {
 	        if (global.SHOW_SCORE) instance_create(toKill.x,toKill.y,oPlusPoints);
 	        global.terroristKillsLevel += 1;
 	        global.terroristKillsTotal += 1;
+					show_debug_message("Terrorist killed");
+					show_debug_message("Terrorists killed level: " + string(global.terroristKillsLevel));					
+					show_debug_message("Terrorists killed total: " + string(global.terroristKillsTotal));									
 	      }
 	      else if (ds_list_find_index(global.childImagesList,toKill.image_index) >= 0)
 	      {
 	        if (global.SHOW_SCORE) instance_create(toKill.x,toKill.y,oMinusPointsChildren);
 	        global.civilianKillsLevel += 1;
 	        global.civilianKillsTotal += 1;      
+					//show_debug_message("Civilian child killed");
+					//show_debug_message("Civilians killed level: " + string(global.civilianKillsLevel));					
+					//show_debug_message("Civilians killed total: " + string(global.civilianKillsTotal));									
 	      }
 	      else
 	      {
 	        if (global.SHOW_SCORE) instance_create(toKill.x,toKill.y,oMinusPoints);
 	        global.civilianKillsLevel += 1;
 	        global.civilianKillsTotal += 1;
+					//show_debug_message("Civilian adult killed");
+					//show_debug_message("Civilians killed level: " + string(global.civilianKillsLevel));					
+					//show_debug_message("Civilians killed total: " + string(global.civilianKillsTotal));						
 	      }
 	      with(toKill)
 	      { 
 	        //instance_change(oPersonDying,false);
-			killed = instance_create_depth(x,y,depth, oPersonDying);
-			with(killed){
-				image_index = other.image_index; //pass the image_index forward
-				rot = other.rot;
-				fallDirection = other.fallDirection;
-				fallSpeed = other.fallSpeed;
-				facing = other.facing;
-			}
+					killed = instance_create_depth(x,y,depth, oPersonDying);
+					with(killed)
+					{
+						image_index = other.image_index; //pass the image_index forward
+						rot = other.rot;
+						fallDirection = other.fallDirection;
+						fallSpeed = other.fallSpeed;
+						facing = other.facing;
+					}
 	        if (fps>=room_speed)
 	          particleBloodScript();
-			instance_destroy();
+					instance_destroy();
 	      }
 	    }
 	  }

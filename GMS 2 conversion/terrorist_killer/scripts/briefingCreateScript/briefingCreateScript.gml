@@ -27,7 +27,13 @@ function briefingCreateScript() {
  
  
 	global.numberOfTerrorists = 4 + global.level;
-	global.density = 1/(1/4 * power(1.3,global.level)); //This is actually SPACING; 1 is everyone packed like Sardines
+	if (global.level < global.lastLevel) 
+		//global.density = 1/(1/4 * power(1.3,global.level));		// Density function from original game.
+		global.density = 1/(1/3.5 * power(1.15,global.level)); //This is actually SPACING; 1 is everyone packed like Sardines
+	else 
+		global.density = 0.9;	// Force last level density to whatever we want (super high density).
+	show_debug_message("Level: " + string(global.level));
+	show_debug_message("global.density: " + string(global.density));
 	//if (global.density < 1)
 	//  global.density = 1;
 	global.crosshairPasses = 1;
