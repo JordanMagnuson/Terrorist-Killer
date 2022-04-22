@@ -1,37 +1,32 @@
 ========================================================================
 Terrorist Killer
-By Jordan Magnuson 
+By Jordan Magnuson, Gunsan, 2010
+Ported to HTML5 in 2022
 NecessaryGames.com
 ========================================================================
 
-Built with:		GameMaker 8.1
+Original game built with:	GameMaker 8.1
 
-Extensions used:	Supersound_v1.gex 
-			EasyLighting5.0.1.gex
-			(Both included in repo)
+Ported to:			GameMaker Studio 2 (Version 2022.1.1.610)
 
-The source code for this game is released under the MIT license: use it
-in whatever way you'd like. If you find it helpful, or make anything
-particular with it, I'd love to hear about it! Send an email to
-jordan@necessarygames.com.
+GameMaker Studio 2 version 2022.1.1.610 installer can be downloaded from:
+https://gms.yoyogames.com/GameMakerStudio-Installer-2022.1.1.610.exe
 
 At last check, GameMaker 8.1 could be downloaded from:
 https://archive.org/details/GameMaker81
 
 
 ------------------------------------------------------------------------
-CONTROLS
+LICENSE
 ------------------------------------------------------------------------
 
-You can use space, left mouse button, or joystick button one to control.
-
-F12 will toggle debug mode, which will show you your FPS, and how long
-you've been playing the game. It will also enable you to skip between
-levels by pressing "N" and "P". 
+The source code for this game is released under the attached MIT license. 
+If you find it helpful, or make anything particular with it, I'd love 
+to hear about it! Find me on Twitter at @JordanMagnuson.
 
 
 ------------------------------------------------------------------------
-CREDITS
+CREDITS AND ATTRIBUTION
 ------------------------------------------------------------------------
 
 Crosshair image
@@ -97,20 +92,17 @@ SPECIAL THANKS
 Special thanks to the following people for testing the game and
 providing valuable feedback:
 
+John Knauss
+Marisa Lerin
 Matthew Fisher
-Chris Tompkins (constantwanderer.com)
-Yan Zhang (yanzhang.wordpress.com)
+Chris Tompkins
+Yan Zhang
 Nathaniel Magnuson
-Julian Egbert (twitter.com/partmusic)
+Julian Egbert
 
 
 ------------------------------------------------------------------------
 QUESTIONS, COMMENTS, BUGS?
 ------------------------------------------------------------------------
 
-Send an email to jordan@necessarygames.com.
-
-Thank you for taking the time to play this game!
-
--Jordan Magnuson
- NecessaryGames.com
+Find me on Twitter at @JordanMagnuson.
