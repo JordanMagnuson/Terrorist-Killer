@@ -1,6 +1,7 @@
 # Ignore build directory.
 /build/
 /!build/
+/*/build/
 
 # Ignore Windows image file caches.
 Thumbs.db
