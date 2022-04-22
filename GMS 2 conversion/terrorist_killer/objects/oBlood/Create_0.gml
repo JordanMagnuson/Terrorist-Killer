@@ -5,4 +5,4 @@ alarm[0]=60/((instance_number(oBlood) + 50)/50) * room_speed/30;//sets the timer
 alarm[1]=8 * room_speed/30;//Stop moving when this alarm hits 0
 fade=false;//tells not to fade yet
 
-depth = -1;
+depth = 0;
