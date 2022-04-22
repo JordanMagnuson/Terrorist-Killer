@@ -9,4 +9,5 @@ if (room != rTitleScreen)
   
 audio_play_sound(global.sndExplosion, 1, false);
 
-depth = -1;
+depth = 0;
+visible = true;
