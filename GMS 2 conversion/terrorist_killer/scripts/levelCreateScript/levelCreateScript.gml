@@ -1,4 +1,6 @@
 function levelCreateScript() {
+	global.explodedCivilians = 0;	
+	global.explodedTerrorists = 0;
 	global.civilianKillsLevel = 0;
 	global.terroristKillsLevel = 0;
 

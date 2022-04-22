@@ -40,7 +40,7 @@ if (global.civilianKillsTotal > 0)
     stringResult += " and " + string(global.civilianKillsTotal) + " civilians.";
 }
 else
-  stringResult += " and were responsible for the deaths of " + string(global.explodedCivilians) + " civilians.";
+  stringResult += " and were responsible for the deaths of " + string(global.explodedCivilians + global.civilianKillsTotal) + " civilians.";
 
 stringResult += "##Someone more competent will be found to replace you.";
 scr_init_typ(stringResult,20,room_width-margin*2,1,vk_space,x,y,1,c_white,global.font6);
