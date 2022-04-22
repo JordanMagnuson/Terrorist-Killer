@@ -103,6 +103,9 @@ Yan Zhang
 Nathaniel Magnuson
 Julian Egbert
 
+Extra special thanks to Raven Lickey, who provided some initial 
+assistance porting the game from GM 8.1 to GMS 2. 
+
 
 ------------------------------------------------------------------------
 QUESTIONS, COMMENTS, BUGS?
