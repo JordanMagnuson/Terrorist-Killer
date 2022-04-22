@@ -1,9 +1,12 @@
 ========================================================================
 Terrorist Killer
-By Jordan Magnuson, Gunsan, 2010
+A one button hammer by Jordan Magnuson, Gunsan, 2010
 Ported to HTML5 in 2022
 NecessaryGames.com
 ========================================================================
+
+A short, extremely heavy-handed game about terrorism and the war on terror. 
+Originally made for the Kokoromi one-button challenge. 
 
 Original game built with:	GameMaker 8.1
 
