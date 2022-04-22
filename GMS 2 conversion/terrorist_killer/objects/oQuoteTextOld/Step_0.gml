@@ -2,7 +2,7 @@ scr_step_typ(typs);
 
 if (finishedTyping and !typingReset)
 {
-  alarm[0] = 80;
+  alarm[0] = 8 * room_speed/300;
   typingReset = true;
 }
 

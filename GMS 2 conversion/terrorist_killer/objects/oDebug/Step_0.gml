@@ -16,6 +16,11 @@ if (global.debugOn)
       global.level = 0;
     room_goto(rBriefing);
   }
+	
+  if (keyboard_check_pressed(ord("R")))
+  {
+    game_restart();
+  } 	
   
   //Light debug info, since room is dark
 //  lt_lightset(debugLight,sLightDebug,0,5,5,1,1,0,c_white,false);     

@@ -3,7 +3,7 @@ function titleScreenStep() {
 	{
 	  if (oByLine.finishedTyping and !startedExplosions)
 	  {
-	    alarm[0] = 20;
+	    alarm[0] = 20 * room_speed/30;
 	    startedExplosions = true;
 	  }
 	}
@@ -21,7 +21,7 @@ function titleScreenStep() {
 	    {
 	      if (terroristID.object_index != oPersonDead)
 	      {
-	        alarm[0] = 120 + random(240); 
+	        alarm[0] = (120 + random(240)) * room_speed/30; 
 	        with (terroristID)
 	          instance_change(oExplosion,true);
 	      }

@@ -1,4 +1,4 @@
-rot += fallDirection*fallSpeed;
+rot += fallDirection*fallSpeed * 30/room_speed;
 
 if (abs(rot)>=90){
 	//instance_change(oPersonDead,false); THIS DOESN'T WORK 

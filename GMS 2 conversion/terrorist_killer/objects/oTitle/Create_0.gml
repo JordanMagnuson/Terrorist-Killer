@@ -1,4 +1,4 @@
-alarm[1] = 30; //How long after finished to show next text object
+alarm[1] = 30 * room_speed/30; //How long after finished to show next text object
 holdToQuit = 90;
 typingReset = false;
 finishedTyping = false;

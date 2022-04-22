@@ -20,7 +20,7 @@ function crosshairsStepScript() {
 	if (button.down and oLevel.alarm[0] <= 0)
 	{
 	  firing = true;
-	  alarm[5] = 8;
+	  alarm[5] = 8 * room_speed/30;
 	}
 	if (alarm[5] <= 0)
 	  firing = false;
@@ -79,7 +79,7 @@ function crosshairsStepScript() {
 
 	  //New image
 	  sprite_index = sCrosshairsFire;
-	  image_speed = 1/2;
+	  image_speed = 30/room_speed *  1/2;
 	  //Jerk crosshairs
 	  if (goBack == 1)
 	  {

@@ -2,7 +2,7 @@ script_execute(levelCreateScriptTitle,0,0,0,0,0);
 //Play call to prayer sound
 audio_play_sound(global.sndCallToPrayer, 1, false);
 
-alarm[1] = 120;
+alarm[1] = 120 * room_speed/30;
 startedExplosions = false;
 //Reset global variables
 global.level = 0;

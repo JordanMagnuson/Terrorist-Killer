@@ -87,7 +87,7 @@ function levelCreateScript() {
 
 	//This alarm prevents the user from firing the gun until it reaches 0.
 	//Otherwise the gun starts off firing.
-	alarm[0] = 10;
+	alarm[0] = 10 * room_speed/30;
 
 
 	/*

@@ -14,7 +14,6 @@ function scr_init_typ(argument0, argument1, argument2, argument3, argument4, arg
 	drwst = string_delete(ist,sst,est) // Draw the string as nothing. By taking the letters out of the string
 	skip = false // Set skip to false
 	finishedTyping = false;
-
-
-
+	odd_frame = 1;
+	global.audio_typing = false;
 }

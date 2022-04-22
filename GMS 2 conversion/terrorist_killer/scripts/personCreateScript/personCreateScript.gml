@@ -11,5 +11,5 @@ function personCreateScript() {
   
 	rot=0;  
 
-	fallSpeed = 10 + random(10);
+	fallSpeed = 30/room_speed * (10 + random(10));
 }

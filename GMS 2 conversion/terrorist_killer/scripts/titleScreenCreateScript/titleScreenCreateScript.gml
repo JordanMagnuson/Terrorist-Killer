@@ -1,4 +1,5 @@
 function titleScreenCreateScript() {
+	// NOTE: LEGACY - THIS FILE IS NOT USED.
 	audio_stop_sound(global.sndMachineGun);
 	global.level = 6;
 
@@ -20,7 +21,7 @@ function titleScreenCreateScript() {
 	x=margin;
 	y=margin;
 	//scr_init_typ("Kill the Evildoers",20,room_width-(margin*2),1,vk_space,x,y,0.5,c_black,global.font8)
-	scr_init_typ("##A game by Jordan Magnuson",20,room_width-(margin*2),1,vk_space,x,y,0.5,c_black,global.font6)
+	//scr_init_typ("##A game by Jordan Magnuson",20,room_width-(margin*2),1,vk_space,x,y,0.5,c_black,global.font6)
 
 
 

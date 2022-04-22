@@ -1,4 +1,4 @@
-image_speed = 1/2;
+image_speed = 30/room_speed *  1/2;
 finished = false;
 explosionLightScale = 1;
 //explosionLight = lt_lightadd(light_s,0,x,y,explosionLightScale,explosionLightScale,0,c_white,true);
@@ -9,4 +9,4 @@ if (room != rTitleScreen)
   
 audio_play_sound(global.sndExplosion, 1, false);
 
-depth = 0;
+depth = -1;

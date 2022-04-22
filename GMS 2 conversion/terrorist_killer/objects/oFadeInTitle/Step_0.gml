@@ -1,7 +1,7 @@
 if (fading)
-  alpha -= .02;
+  alpha -= .02 * 30/room_speed;
 else
-  alpha += .02;
+  alpha += .02 * 30/room_speed;
 
 if (alpha <= 0 and fading)
 {
