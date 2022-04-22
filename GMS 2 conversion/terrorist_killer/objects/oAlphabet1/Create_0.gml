@@ -2,7 +2,7 @@
 delaySpeedFast = 100 * 30/room_speed; //How long to wait at each letter on fast cycle speed
 delaySpeedSlow = 10 * 30/room_speed; //How long to wait at each letter on slow cycle speed
 letterSpeed = 30/room_speed *  5;   //How fast the letters move between grid spaces
-goSlowTime = 70;    //How long should the letters move slowly after the user presses space the first time?
+goSlowTime = 70 * room_speed/30;    //How long should the letters move slowly after the user presses space the first time?
 verticalSpacing = 8;  //Vertical space between letters
 colorNotSelected = make_color_rgb(99,8,8); //Color of letters when not selected
 colorSelected = c_black;                        //Color of letters when selected
